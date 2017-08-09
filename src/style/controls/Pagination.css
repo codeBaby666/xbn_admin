@@ -1,0 +1,59 @@
+/*****************分页********************/
+.pagination{text-align: center;}
+.pagination .pager{margin:30px 0;}
+.pagination .wrapper-dropdown ul li{
+    display:block;
+}
+.pagination .pager li , .pagination .li-select-page .wrapper-demo{
+    display: inline-block;
+}
+.pagination .pager .noneBg span{
+    display: inline-block;
+    width:28px;
+    height:28px;
+    border:1px solid #cccccc;
+    border-radius: 6px;
+    line-height: 28px;
+    text-align: center;
+    margin:0 7px;
+    cursor: pointer;
+}
+.pagination .pager .noneBg span:hover{
+    background: #00aff0;
+    color:white;
+}
+.pagination .li-select-page{
+    font-size: 15px;
+}
+.pagination .li-select-page .page_line {
+    margin: 0 10px;
+}
+.pagination .li-select-page .toPageInput{
+    border:1px solid #ccc;
+    border-radius: 6px;
+    padding:5px 5px;
+    width:20px;
+    font-size: 12px;
+    margin:0 10px;
+    text-align: center;
+}
+.pagination .pager .toPage , .pagination .pager .firstPage , .pagination .pager .lastPage{
+    background:#00aff0;
+    color:white;
+    padding:4px 7px;
+    text-align: center;
+    font-size: 15px;
+    margin:0 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.pagination .nextPage .icon-55 , .pagination .none.prePage .icon-56{
+    display: inline-block;
+    border:1px solid #ccc;
+    border-radius: 2px;
+    line-height: 28px;
+    text-align: center;
+    width:28px;
+    height:28px;
+    margin-left:10px;
+}

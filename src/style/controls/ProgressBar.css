@@ -1,0 +1,50 @@
+.t50 {
+    top: 50px;
+}
+.mt_9 {
+    margin-top: -9px;
+}
+.bgcCc {
+    background: #ccc;
+}
+.bdcCCC{
+    border:1px solid #CCC !important;
+}
+.progressList{
+    position: relative;
+}
+.progressLine{width:10%;}
+.progressLine hr{width:100% !important;}
+.indexCircleWrap {
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #019be1;
+    width: 25px;
+    height: 25px;
+}
+.indexCircleWrap {
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #019be1;
+    width: 25px;
+    height: 25px;
+}
+.indexCircle {
+    border-radius: 50%;
+    color: white;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.bgcDarkBlue {
+    background: #019be1;
+}
+.blueFont {
+    color: #00aff0!important;
+}
+.progress_hr{
+    width:100px;
+    height:3px;
+    background-color: #ccc;
+}
