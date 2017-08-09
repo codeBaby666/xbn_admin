@@ -1,0 +1,47 @@
+
+.tab_btn ul li{
+    margin-right: 9px;
+    display: inline-block;
+    cursor: pointer;
+}
+.tab_btn ul li.active a{
+    color:#42bbf2;
+}
+/*Tabpanel*/
+.tab_btn ul{
+    padding-left: 30px;
+}
+
+.tab_btn ul li{
+    width:98px;
+    height:36px;
+    font-size:14px;
+    text-align: center;
+    line-height: 36px;
+    background-color: #00aff0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-topleft:5px;
+}
+.tab_btn ul li a{
+    color:#000;
+    -moz-border-radius-topleft:5px;;
+
+}
+.tab_btn ul li a{
+    color:#fff;
+    font-weight: normal;
+}
+.tab_btn ul li.active {
+    background-color: #fff;
+    color:#26b5f1;
+}
+
+.tab_content{
+    background-color: white;
+    height: 100%;
+}
+
+.active  a{
+    color:#26b5f1;
+}

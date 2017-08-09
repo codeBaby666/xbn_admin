@@ -1,0 +1,55 @@
+.table{
+    text-align: center;
+    width:100%;
+    border:1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 18px;
+    font-weight:normal;
+}
+.table thead{
+    background: -webkit-linear-gradient(#f5f5f5, #e4e4e4);
+    background: -o-linear-gradient(#f5f5f5, #e4e4e4);
+    background: -moz-linear-gradient(#f5f5f5, #e4e4e4);
+    background: linear-gradient(#f5f5f5, #e4e4e4);
+}
+.table th{font-weight:normal;color:black}
+.table thead tr{
+     height:38px;
+     line-height:38px;
+ }
+.table tbody{
+    cursor:pointer;
+    color:#666;
+}
+.table tbody td img{
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.table tbody td img:hover{
+    border:1px solid #00aff0;
+}
+.table tbody td{
+    padding:15px;
+}
+.table tbody tr:nth-child(2n){
+    background: #f5f5f5;
+}
+.table tbody tr:nth-child(2n+1){
+    background: #fff;
+}
+.table tbody tr:hover{background: #e9f8ff;}
+/********************没数据的样式*********************/
+.noDataImg:hover {
+    border: none !important;
+}
+.noDataImg {
+    cursor: default;
+    width: 200px;
+    height: 130px;
+    margin: 30px auto;
+}
+.noDataTd:hover{
+    cursor: default;
+    background: white;
+}

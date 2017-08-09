@@ -1,0 +1,31 @@
+﻿.screen_search_box .screen_search_main{
+    line-height: 60px;
+    min-width: 950px;
+}
+
+.screen_search_box .screen_search_main dl {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px 0px 10px;
+}
+
+.screen_search_box .screen_search_main dl dt,.screen_search_box .screen_search_main dl dd {
+    display: inline-block;
+}
+.screen_search_box .screen_search_main a.text_button.mL15{
+	margin-left: 15px;
+}
+
+.screen_search_box .screen_search_main a.text_button.mR15{
+	margin-right: 15px;
+}
+
+.screen_search_box .screen_box{
+  display: inline-block;
+}
+.screen_search_box .screen_box dt label{width:80px;display: inline-block}
+.screen_search_box .screen_box dt input[type="button"]{width:90px;margin-right:10px;}
+.screen_search_box .screen_box dt, .screen_search_box .screen_box dd input{
+  display: inline-block;
+}

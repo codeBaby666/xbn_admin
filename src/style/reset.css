@@ -1,0 +1,89 @@
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+q,
+fieldset,
+button,
+input,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei', 'Arial';
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+}
+a,
+input,
+textarea,
+select{
+    resize: none;
+    outline: 0
+}
+button,
+input,
+select,
+textarea {
+    font-size: 100%
+}
+button,
+input,
+select {
+    vertical-align: middle
+}
+ul,
+ol {
+    list-style-type: none
+}
+li {
+    list-style: none
+}
+ul,
+li {
+    list-style: none;
+    text-decoration: none
+}
+a {
+    text-decoration: none
+}
+address,
+cite,
+dfn,
+em,
+var,
+i {
+    font-style: normal
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+a img,
+img{
+    border: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal
+}
+
