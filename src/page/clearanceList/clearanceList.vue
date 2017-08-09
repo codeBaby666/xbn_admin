@@ -61,7 +61,6 @@
                 </el-table-column>
                 <el-table-column label="操作" header-align="center" align="center">
                     <template scope="scope">
-                        <el-button size="small" @click="handleEdit(scope.$index, scope.row)">处理</el-button>
                         <el-button size="small" @click="handleDetail(scope.$index, scope.row)" >详情</el-button>
                     </template>
                 </el-table-column>
@@ -135,10 +134,6 @@
                 }
                 console.log(this.status)
                 this.postClearanceList();
-            },
-            //点击跳转处理页面
-            handleEdit(index,row){
-                this.$router.push({path:'/clearanceHandle?export_form_id = '+ row.export_form_id});
             },
             //点击跳转详情页面
             handleDetail(index, row){
